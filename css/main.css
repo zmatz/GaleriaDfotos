@@ -4,30 +4,26 @@ img {
     border: 1px solid #ddd;
     border-radius: 10%;
     padding: 5px;
-}
-
-p {
-	display: inline-block;
-}
-
-.arriba {
-	margin: 20px 20px;
-	float: left;
-	position: relative;
 
 }
 
-.abajo {
-	margin: 20px 20px;
-	float: left;
-	position: relative;
-}
+.contenedor {
+ 	margin: 15px;
+ 	padding: 0px
 
-.nombre {
-	padding: 30px;
-	margin: -30px;
-	text-align: right;
-	position: relative;
+ }
+
+
+.dentro {
+	display: inline;
 
 }
-	 
+
+.texto {
+	position: absolute;
+    font-size: 18px;
+    bottom: 8px;
+    right: 16px;
+}
+
+
